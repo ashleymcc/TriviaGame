@@ -1,0 +1,95 @@
+/* General Elements*/
+body{
+	background-image: url("../images/galaxy.jpg")
+
+}
+/* JEN! Why doesnt the below pathway work? 
+   
+  background: url("assets/images/galaxy.jpg");
+
+
+**/
+
+h1 {
+    font-size: 3.5rem;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+.lead {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.m-1 {
+    margin: .65rem!important;
+}
+
+#game {
+    padding: 20px;
+}
+
+#options {
+    padding-top: 0px;
+}
+
+#remaining-time, #question {
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+h3 {
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+/* media query 768px*/
+@media screen and (max-width: 768px) {
+
+	.container{
+		margin-left: 130px;
+		margin-right: 130px;
+		max-width: 768px;
+	}
+	.main-section, .container{
+		width: 75%;
+		float: none;
+		margin-right: 1px
+	}
+	.auth-image{
+		width: 200px;
+		height: auto;
+		margin-top: 10px;
+		float: left;
+		margin-right: 25px;
+	}
+    .sidebar {
+    	width:100%;
+    	max-width: 75%;
+		float: none;
+		margin-left: 1px;
+		margin-right: 1px
+	    }
+
+  
+}
+
+/* media query 640px*/
+@media screen and (max-width: 640px) {
+
+	.container{
+		margin-left: 130px;
+		margin-right: 130px;
+		max-width: 640px;
+	}
+	.main-section, .container{
+		width: 75%;
+		float: none;
+		margin-right: 1px
+	}
+	.auth-image{
+		width: 100%;
+		float: none;
+	}
+	#logo, nav{
+		width: 100%;
+		float: none;
+	}
+}
